@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.S. Student at DSP&AI Lab, Yonsei University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hyomin.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +24,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, I am Kim Hyomin, an M.S. student in the <a href="http://dsp.yonsei.ac.kr/">Digital Signal Processing and AI Lab (DSP&AI Lab)</a> at <a href="https://www.yonsei.ac.kr/sites/en_sc/index.do">Yonsei University</a>, South Korea. I joined the lab in February 2025 and am currently conducting research under the supervision of Professor Hong-Goo Kang.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my undergraduate studies, I began my research journey as an intern at ETRI (Electronics and Telecommunications Research Institute), where I implemented and analyzed image signal processing-based anti-spoofing techniques. This experience inspired me to pursue a career in research and sparked my interest in signal processing and artificial intelligence.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During my M.S. studies, I have primarily focused on generative model-based speech synthesis. In particular, my research has centered on multilingual voice conversion and multimodal emotional voice conversion.
+
+Currently, my research interests are expanding toward speech tokenizers for Speech LLMs. I am particularly interested in developing speech tokenization methods that provide more effective speech representations and contribute to the advancement of Speech LLMs.
+
