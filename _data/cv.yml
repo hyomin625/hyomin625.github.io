@@ -19,7 +19,7 @@ cv:
         studyType: M.S.
         start_date: 2025-03
         end_date: present
-        score: "4.03 / 4.50"
+        gpa: "4.03 / 4.50"
         highlights:
           - "Advisor: Prof. Hong-Goo Kang"
 
