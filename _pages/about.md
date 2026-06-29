@@ -10,18 +10,14 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
 Hello, I am Kim Hyomin, an M.S. student in the <a href="http://dsp.yonsei.ac.kr/">Digital Signal Processing and AI Lab (DSP&AI Lab)</a> at <a href="https://www.yonsei.ac.kr/sites/en_sc/index.do">Yonsei University</a>, South Korea. I joined the lab in February 2025 and am currently conducting research under the supervision of Professor Hong-Goo Kang.
