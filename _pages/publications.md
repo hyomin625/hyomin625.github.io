@@ -18,3 +18,16 @@ nav_order: 1
 {% bibliography %}
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("abbr.badge").forEach(function (badge) {
+    const text = badge.textContent.trim();
+    if (text === "Under Review") {
+      badge.style.backgroundColor = "#e91e8c";
+    } else if (text === "Domestic") {
+      badge.style.backgroundColor = "#1565c0";
+    }
+  });
+});
+</script>

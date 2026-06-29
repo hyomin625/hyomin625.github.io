@@ -23,9 +23,8 @@ cv:
         highlights:
           - "Advisor: Prof. Hong-Goo Kang"
 
-    Work:
-      - entry_type: ExperienceEntry
-        company: DSPAI Lab, Yonsei University
+    Experience:
+      - company: DSPAI Lab, Yonsei University
         position: Graduate Researcher
         location: Seoul, South Korea
         start_date: 2025-03
@@ -37,8 +36,7 @@ cv:
           - "Hyundai Motor Company–Yonsei Joint Research Project: Developed a multilingual voice conversion system to improve speech intelligibility, resulting in one international conference paper and one patent application."
           - "ETRI–Yonsei Joint Research Project: Developed unified self-supervised learning (SSL) models for speech and general audio representation learning."
 
-      - entry_type: ExperienceEntry
-        company: Yonsei University, Department of Electrical and Electronic Engineering
+      - company: Yonsei University, Department of Electrical and Electronic Engineering
         position: Teaching Assistant
         location: Seoul, South Korea
         start_date: 2025-03
@@ -48,8 +46,7 @@ cv:
           - "EEE3313: Digital Electronics Lab (Fall 2025)"
           - "EEE2111: Analog Electronics Lab (Spring 2025)"
 
-      - entry_type: ExperienceEntry
-        company: Electronics and Telecommunications Research Institute (ETRI)
+      - company: Electronics and Telecommunications Research Institute (ETRI)
         position: Undergraduate Research Intern
         location: South Korea
         start_date: 2023-07
@@ -57,8 +54,7 @@ cv:
         highlights:
           - "Participated in a face detection-based anti-spoofing project for biometric authentication."
 
-      - entry_type: ExperienceEntry
-        company: Uniquest Co., Ltd.
+      - company: Uniquest Co., Ltd.
         position: Undergraduate Research Intern
         location: South Korea
         start_date: 2023-01
