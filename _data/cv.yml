@@ -1,80 +1,75 @@
-cv:
-  name: Hyomin Kim
-  label: Graduate Student
-  email: hyominkim@dsp.yonsei.ac.kr
-  location: Seoul, South Korea
-  image: ""
-  summary: ""
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hyomin Kim
+    - name: Position
+      value: Graduate Student
+    - name: Email
+      value: hyominkim@dsp.yonsei.ac.kr
+    - name: GitHub
+      value: https://github.com/hyomin625
+    - name: Interests
+      value: Generative model-based speech synthesis, speech tokenizer for Speech LLMs
 
-  social_networks:
-    - network: GitHub
-      username: hyomin625
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S. in Electrical and Electronic Engineering
+      institution: Yonsei University, Seoul, South Korea
+      year: 2025.03 - Present
+      description:
+        - Advisor&#58; Prof. Hong-Goo Kang
+        - GPA&#58; 4.03 / 4.50
 
-  sections:
-    Education:
-      - institution: Yonsei University
-        location: Seoul, South Korea
-        url: https://www.yonsei.ac.kr/sites/en_sc/index.do
-        area: Electrical and Electronic Engineering
-        studyType: M.S.
-        start_date: 2025-03
-        end_date: present
-        score: "4.03 / 4.50"
-        highlights:
-          - "Advisor: Prof. Hong-Goo Kang"
+- title: Work
+  type: time_table
+  contents:
+    - title: Graduate Researcher
+      institution: DSPAI Lab, Yonsei University, Seoul, South Korea
+      year: 2025.03 - Present
+      description:
+        - Advisor&#58; Prof. Hong-Goo Kang
+        - Conducted research on speech tokenization, multilingual voice conversion, multimodal voice conversion, and self-supervised learning for speech and audio.
+        - Developed speech tokenizers and representation learning frameworks for speech and audio foundation models.
+        - "Hyundai Motor Company–Yonsei Joint Research Project: Developed a multilingual voice conversion system to improve speech intelligibility, resulting in one international conference paper and one patent application."
+        - "ETRI–Yonsei Joint Research Project: Developed unified self-supervised learning (SSL) models for speech and general audio representation learning."
 
-    Experience:
-      - company: DSPAI Lab, Yonsei University
-        position: Graduate Researcher
-        location: Seoul, South Korea
-        start_date: 2025-03
-        end_date: present
-        highlights:
-          - "Advisor: Prof. Hong-Goo Kang"
-          - "Conducted research on speech tokenization, multilingual voice conversion, multimodal voice conversion, and self-supervised learning for speech and audio."
-          - "Developed speech tokenizers and representation learning frameworks for speech and audio foundation models."
-          - "Hyundai Motor Company–Yonsei Joint Research Project: Developed a multilingual voice conversion system to improve speech intelligibility, resulting in one international conference paper and one patent application."
-          - "ETRI–Yonsei Joint Research Project: Developed unified self-supervised learning (SSL) models for speech and general audio representation learning."
+    - title: Teaching Assistant
+      institution: Yonsei University, Dept. of Electrical and Electronic Engineering, Seoul, South Korea
+      year: 2025.03 - Present
+      description:
+        - "EEE2060: Signals and Systems (Spring 2026)"
+        - "EEE3313: Digital Electronics Lab (Fall 2025)"
+        - "EEE2111: Analog Electronics Lab (Spring 2025)"
 
-      - company: Yonsei University, Department of Electrical and Electronic Engineering
-        position: Teaching Assistant
-        location: Seoul, South Korea
-        start_date: 2025-03
-        end_date: present
-        highlights:
-          - "EEE2060: Signals and Systems (Spring 2026)"
-          - "EEE3313: Digital Electronics Lab (Fall 2025)"
-          - "EEE2111: Analog Electronics Lab (Spring 2025)"
+    - title: Undergraduate Research Intern
+      institution: Electronics and Telecommunications Research Institute (ETRI), South Korea
+      year: 2023.07 - 2023.08
+      description:
+        - Participated in a face detection-based anti-spoofing project for biometric authentication.
 
-      - company: Electronics and Telecommunications Research Institute (ETRI)
-        position: Undergraduate Research Intern
-        location: South Korea
-        start_date: 2023-07
-        end_date: 2023-08
-        highlights:
-          - "Participated in a face detection-based anti-spoofing project for biometric authentication."
+    - title: Undergraduate Research Intern
+      institution: Uniquest Co., Ltd., South Korea
+      year: 2023.01 - 2023.02
+      description:
+        - Participated in the development of financial software applications.
 
-      - company: Uniquest Co., Ltd.
-        position: Undergraduate Research Intern
-        location: South Korea
-        start_date: 2023-01
-        end_date: 2023-02
-        highlights:
-          - "Participated in the development of financial software applications."
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, C/C++
+    - title: Frameworks & Libraries
+      items:
+        - PyTorch, torchaudio, NumPy, SciPy, Librosa
+    - title: Tools
+      items:
+        - Linux Shell, Git, Arduino, Xilinx Vitis/Vivado
 
-    Skills:
-      - name: Programming Languages
-        keywords: "Python, C/C++"
-
-      - name: Frameworks & Libraries
-        keywords: "PyTorch, torchaudio, NumPy, SciPy, Librosa"
-
-      - name: Tools
-        keywords: "Linux Shell, Git, Arduino, Xilinx Vitis/Vivado"
-
-    Languages:
-      - name: Korean
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Professional working proficiency (TOEIC Speaking Advanced Low (AL))"
+- title: Languages
+  type: list
+  contents:
+    - "<u>Korean:</u> Native speaker"
+    - "<u>English:</u> Professional working proficiency (TOEIC Speaking Advanced Low (AL))"
