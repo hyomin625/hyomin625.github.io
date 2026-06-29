@@ -11,10 +11,6 @@ cv:
       username: hyomin625
 
   sections:
-    Interests:
-      - name: Speech Synthesis
-        keywords: "Generative model-based speech synthesis, speech tokenizer for Speech LLMs"
-
     Education:
       - institution: Yonsei University
         location: Seoul, South Korea
@@ -27,7 +23,7 @@ cv:
         highlights:
           - "Advisor: Prof. Hong-Goo Kang"
 
-    Experience:
+    Work:
       - company: DSPAI Lab, Yonsei University
         position: Graduate Researcher
         location: Seoul, South Korea
